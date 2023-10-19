@@ -1,0 +1,62 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 26px;
+
+    background: linear-gradient(darkblue, #442E59, #63536b, #c75493, #e2593a, red);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+#tameimpala {
+    width: 728px;
+    height: 728px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #442E59;
+    padding: 10px 550px 10px 70px;
+
+    background-image: url(../Bg-image/Images/img-Tameimpala.jpg);
+    background-size: cover;
+}
+
+#currents {
+    width: 728px;
+    height: 728px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #442E59;
+    padding: 10px 70px;
+
+    background-image: url(../Bg-image/Images/img-Currents.jpg);
+    background-size: cover;
+}
+
+#slowrush {
+    width: 728px;
+    height: 728px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: justify;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px darkred;
+    padding: 10px 70px;
+
+    background-image: url(../Bg-image/Images/img-TSR.jpg);
+    background-size: cover;
+}
