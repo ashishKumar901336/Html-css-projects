@@ -1,2 +1,2 @@
 # Html-css-projects
-This repo consists of my front end projects using only html and css
+A repo to contain all of my projects using only html and css.
