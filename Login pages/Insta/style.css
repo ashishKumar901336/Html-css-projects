@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    min-height: 100vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    width: 440px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    padding: 30px 50px;
+    margin: 6px 0;
+    display: flex;
+}
+
+.login {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 7px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+}
+
+.input-box::placeholder {
+    font-size: 15px;
+}
+
+.input-box:focus {
+    outline: none;
+    border: 1px solid #8a8a8a;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #4db5f9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #747474;
+    gap: 25px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.fb {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #385185;
+}
+
+.fb::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f082";
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.forgot {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.signup {
+    justify-content: center;
+    gap: 5px;
+    font-size: 17px;
+}
+
+.signup a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.app-stores {
+    display: flex;
+    gap: 10px;
+}
+
+.app-stores :nth-child(1){
+    width: 170px;
+    height: auto;
+}
+
+.app-stores :nth-child(2) {
+    width: 140px;
+    height: auto;
+}
+
+footer {
+    margin-top: 80px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px;
+    gap: 20px;
+    list-style: none;
+    font-size: 15px;
+    color: #737373;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #737373;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+select {
+    background-color: white;
+    color: #737373;
+    font-size: 15px;
+    border: none;
+}
